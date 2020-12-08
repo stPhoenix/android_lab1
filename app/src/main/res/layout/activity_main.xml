@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/inputField"
+        android:layout_width="331dp"
+        android:layout_height="74dp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368" />
+
+    <TextView
+        android:id="@+id/historyField"
+        android:layout_width="332dp"
+        android:layout_height="84dp"
+        android:text="@string/history"
+        app:layout_constraintBottom_toTopOf="@id/inputField"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginBottom="284dp"
+        android:text="@string/_7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/_9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/_6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.267" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/_5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.267" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/_4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.267" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/_0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.826" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <Button
+        android:id="@+id/buttonComma"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/comma"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.826" />
+
+    <Button
+        android:id="@+id/buttonEqual"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/equal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.826" />
+
+    <Button
+        android:id="@+id/buttonPlus"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <Button
+        android:id="@+id/buttonMinus"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/minus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.267" />
+
+    <Button
+        android:id="@+id/buttonMultiply"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <Button
+        android:id="@+id/buttonDivide"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/divid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonModule"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/module"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonAC"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/ac"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/del"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/operationField"
+        android:layout_width="28dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="478dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/inputField"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
